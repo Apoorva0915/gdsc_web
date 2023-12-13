@@ -3,7 +3,6 @@ import About from './About';
 import Technology from './Technology';
 import Projects from './Projects';
 
-
 function Home() {
     return (
         <div>
