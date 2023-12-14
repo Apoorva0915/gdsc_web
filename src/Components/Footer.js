@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import LinkedInLogo from './LinkedInLogo';
+import GithubLogo from './GithubLogo';
+import InstagramLogo from './InstagramLogo';
 
-function Footer()
-{
-    return(
+function Footer() {
+    return (
         <Container>
             <FooterImg>
                 <img src="./Images/Google-DSC-Lockup-LeftAligned-Chapter.269ee91a8ab3da257401.png" alt="404! Element Not Found" />
@@ -24,12 +24,12 @@ function Footer()
                     <li><a href="https://policies.google.com/terms">Terms</a></li>
                 </ul>
             </QuickLinks>
-            <Social>    
+            <Social>
                 <h2>Connect with us At:</h2>
                 <Icons>
-                    <a href="https://www.instagram.com/gdsc.abesec/" id="insta-a"><FontAwesomeIcon id="insta" icon={faInstagram} /></a>
-                    <a href="https://www.linkedin.com/company/dsc-abesec/" id="linkedin-a"><FontAwesomeIcon id="linkedin" icon={faLinkedin} /></a>
-                    <a href="https://github.com/Developer-Students-Club-ABESEC" id="github-a"><FontAwesomeIcon id="github" icon={faGithub} /></a>
+                    <a href="https://www.instagram.com/gdsc.abesec/" id="insta-a"><InstagramLogo /></a>
+                    <a href="https://www.linkedin.com/company/dsc-abesec/" id="linkedin-a"><LinkedInLogo /></a>
+                    <a href="https://github.com/Developer-Students-Club-ABESEC" id="github-a"><GithubLogo /></a>
                 </Icons>
             </Social>
         </Container>
@@ -41,7 +41,7 @@ export default Footer;
 const Container = styled.div`
     display: flex;
     margin:10px 0;
-    padding: 20px 50px 10px 50px; 
+    padding: 40px 50px 40px 50px; 
     justify-content: center;
     border-top: 1px solid lightgrey;
     @media (max-width: 756px)
@@ -85,6 +85,9 @@ const QuickLinks = styled(FooterImg)`
     a:hover{
         color: #4285F4;
     }
+    li{
+        margin-top: 5px;
+    }
     ul{
         margin-left: 20px;
     }
@@ -98,48 +101,20 @@ const QuickLinks = styled(FooterImg)`
 const Social = styled(FooterImg)`
     width: 25vw;
     @media (max-width: 756px)
-     {
+    {
         margin-top: 20px;
         width: 100%;
-     }
+    }
 `;
 
 const Icons = styled.div`
     display: flex;
+    padding: 10px;
+    gap: 8px;
     justify-content: center;
-    a{
+    a {
         cursor: pointer;
-        padding: 3px 5px;
-        margin: 3px;
-        border-radius: 3px;
-        font-size: 1.8em;
     }
-    a:hover{
-        font-size: 1.5em;
-    }
-    #discord-a{
-        border: 1px solid blue;
-    }
-    #insta-a{
-        border: 1px solid rgb(230, 99, 121);
-    }
-    #github-a{
-        border: 1px solid grey;
-    }
-    #linkedin-a{
-        border: 1px solid darkblue;
-    }
-    #insta{
-        color: rgb(230, 99, 121);
-    }
-    #discord{
-        color: blue;
-    }
-    #github{
-        color:black;
-    }
-    #linkedin{
-        color: darkblue;
-    }
-    
+
+
 `;

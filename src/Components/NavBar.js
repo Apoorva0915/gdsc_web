@@ -51,7 +51,8 @@ const Container = styled.div`
     height: 70px;
     align-items: center;
     padding: 0px 30px;
-    background-color:white;
+    background-color: white;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.9));
     box-shadow: 0 0 12px 0 #9b9595;
 `;
 const Logo = styled.div`

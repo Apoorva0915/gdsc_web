@@ -1,9 +1,16 @@
 import React from 'react'
 import styled from 'styled-components';
+import { DotLottiePlayer } from '@dotlottie/react-player';
+import '@dotlottie/react-player/dist/index.css';
 
 const Technology = () => {
     return (
     <Container>
+
+        <div style={{width:'80vb',}}>
+        <DotLottiePlayer style={{marginLeft: '64vb', marginRight: '50vb',}} src="/Images/technology.lottie" autoplay loop>
+        </DotLottiePlayer>
+        </div>
 
         <div className='streams'>
             <ul className="outer">
