@@ -11,8 +11,8 @@ function Home() {
         <Container id='home'>
             <HomeLeft>
                 <img src='/Images/Google-DSC-Lockup-LeftAligned-Chapter.269ee91a8ab3da257401.png' alt='404! Element Not found.'/>
-                <h3>Welcome to Google DSC at ABES Engineering College, Ghaziabad</h3>
-                <h3>Happy developing!</h3>
+                <h3 className='font-bold text-xl '>Welcome to Google DSC at ABES Engineering College, Ghaziabad</h3>
+                <h3 className='font-semibold text-xl'>Happy Developing!</h3>
             </HomeLeft>
             <HomeRight>
                 <img src='/Images/HomePage.png' alt='Oh!' />
@@ -24,9 +24,9 @@ function Home() {
         <About />
 
         {/* </Content> */}
-        <HomeContent>
-            <h2>What We Do ?</h2>
-            <h3>We, At GDSC ABESEC Aim To Bridge The Gap Between Theory And Practical Applications For Student Developers. We Do This By Organizing Events, Workshops, Competitions And Much More!</h3>
+        <HomeContent >
+            <h2 className='pt-32 underline underline-offset-4 decoration-2 font-bold text-4xl'>What We Do ?</h2>
+            <h3 className='font-semibold'>We, At GDSC ABESEC Aim To Bridge The Gap Between Theory And Practical Applications For Student Developers. We Do This By Organizing Events, Workshops, Competitions And Much More!</h3>
                 {/* <img src='/Images/1516859123612.jpeg' alt='404! Element Not found.'/>     */}
          </HomeContent>
             
@@ -68,7 +68,7 @@ const HomeLeft = styled.div`
     img{
         width: 500px;
         fit-content: contain;
-        filter: contarst(100%) saturate(150%) ;
+        filter: contrast(100%) saturate(150%) ;
         -webkit-filter: contrast(100%);
     }
     h3{
@@ -100,7 +100,7 @@ const HomeRight = styled.div`
 `;
 const HomeContent= styled.div`
 
-background:url("/Images/1516859123612.jpeg")no-repeat ;
+background:url("/Images/1.png")no-repeat ;
 // background-attachment: fixed; 
 background-size: 100% 100%;
 height:60vh;
@@ -109,9 +109,9 @@ padding:10px;
 // margin-top:10px;
 h2{
     text-align:center;
-    font-size:2rem;
+
     max-width: 47%;
-    margin: 10px auto;
+    margin: 24px auto;
     
 }
 h3{

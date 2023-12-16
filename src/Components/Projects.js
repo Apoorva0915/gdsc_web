@@ -4,10 +4,13 @@ import styled from 'styled-components';
 const Projects = () => {
   return (
     <div>
-        <Container>
+        <Container className='mt-24'>
             
-        <div class="projecthome" id="PROJECT"><h1 class="project-head">PROJECTS</h1>
-        <p>Building real time solutions to tackle real world problems. Our projects speak themselves of the calibre we hold.</p><a href="https://github.com/Developer-Students-Club-ABESEC" target="_blank" rel="noreferrer"><button class="project-button">View Projects</button></a></div>
+        <div class="projecthome" id="PROJECT"><h1 class="project-head" className='text-4xl font-bold'>PROJECTS</h1>
+        <p className='text-gray-700 font-medium tracking-tight text-lg'>Building real time solutions to tackle real world problems. Our projects speak themselves of the calibre we hold.</p>
+        <a href="https://github.com/Developer-Students-Club-ABESEC" target="_blank" rel="noreferrer">
+            <button class="project-button text-lg font-bold tracking-wide">View Projects</button>
+        </a></div>
         </Container>
     </div>
   )
@@ -28,36 +31,26 @@ const Container=styled.div`
 .projecthome {
 }
 .projecthome h1 {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 800;
+
     font-size: 50px;
     line-height: 59px;
     text-align: center;
-    letter-spacing: 1.3125px;
     padding: 18px;
 }
 .projecthome p {
-    font-family: Heebo;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 30px;
+
+ 
     text-align: center;
-    letter-spacing: 0.59375px;
-    color: rgb(163, 155, 142);
+
     max-width: 50%;
     margin: auto;
     padding-bottom: 15px;
 }
 
 .project-button {
-    font-family: Inter;
-    background: #18A0FB;
+
     border-radius: 4px;
     font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
     display: flex;
     justify-content: center;
     padding: 10px 16px;
@@ -67,7 +60,6 @@ const Container=styled.div`
     line-height: 25px;
     text-decoration: none;
     text-align: center;
-    letter-spacing: -0.03em;
     background-image: initial;
     background-color: rgb(3, 114, 189);
     color: rgb(232, 230, 227);

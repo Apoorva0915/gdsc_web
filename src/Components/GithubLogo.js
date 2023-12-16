@@ -9,7 +9,7 @@ function GithubLogo(props) {
       width="40px"
       height="40px"
       {...props}
-      style={{fill: 'gray', hover: {fill: 'black'}}}
+      fill="gray"
     >
       <path
         d="M0 256V0h256v256z"

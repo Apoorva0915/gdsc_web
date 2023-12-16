@@ -7,11 +7,9 @@ function About() {
   return (
     <Container id="about">
       <Body>
-        <Heading>
-          <h2>Google Developer Student Clubs</h2>
-          <h2>
-            <strong>ABES Engineering College</strong>
-          </h2>
+        <Heading className="">
+          <h2 className="font-semibold">Google Developer Student Clubs</h2>
+          <h2 className="font-semibold">ABES Engineering College</h2>
         </Heading>
         <p>
           Google Developer Student Clubs are university based community groups
@@ -20,7 +18,7 @@ function About() {
           growing as a developer are welcome. by joining a GDSC, students grow
           their knowledge in a peer-to-peer learning environment and build
           solutions for local businesses and their community.
-          <ul>
+          <ul className="list-disc">
             <Part>
               <li>
                 Gain relevant industry experience by solving problems for local
@@ -41,8 +39,8 @@ function About() {
             </Part>
           </ul>
         </p>
-        <ButtonTab>
-          <Button>
+        <ButtonTab className="mt-4">
+          <Button className="hover:bg-green-600">
             <a href="https://gdsc.community.dev/abes-engineering-college-ghaziabad/">
               Join us
             </a>
@@ -73,7 +71,7 @@ const Container = styled.div`
     height: fit-content;
     padding: 0px 10px !important;
   }
-  background: url("/Images/gdsc-india-android-study-jams.png") no-repeat;
+  background: url("/Images/gdsc-india-android-study-jam.png") no-repeat;
   background-size: 100% 100%;
 `;
 
@@ -131,13 +129,7 @@ const ButtonTab = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  Button:hover {
-    background-color: lightblue;
-    box-shadow: 0 3px 6px rgb(0 110 255 / 40%);
-    a {
-      color: black;
-    }
-  }
+  
 `;
 
 const Button = styled.button`

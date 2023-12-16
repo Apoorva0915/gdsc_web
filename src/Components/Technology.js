@@ -15,14 +15,14 @@ const Technology = () => {
         <div className='streams'>
             <ul className="outer">
                 <li className="inner"><img src="/Images/download.png" alt="" />
-                    <h3 className="text-gray">Machine Learning</h3></li>
+                    <h3 className="text-gray font-semibold mt-2">Machine Learning</h3></li>
                     <li className="inner"><img src="/Images/download (1).png" alt="" />
-                    <h3 className="text-gray">Web Developement</h3></li>
+                    <h3 className="text-gray font-semibold mt-2">Web Developement</h3></li>
                     <li className="inner">
                     <img src="/Images/download (2).png" alt="" />
-                    <h3 className="text-gray">Cloud Network</h3></li>
+                    <h3 className="text-gray font-semibold mt-2">Cloud Network</h3></li>
                     <li className="inner"><img src="/Images/download (3).png" alt="" />
-                    <h3 className="text-gray">App Development</h3>
+                    <h3 className="text-gray font-semibold mt-2">App Development</h3>
                 </li>
             </ul>
         </div>

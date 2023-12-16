@@ -7,7 +7,7 @@ function LinkedInLogo(props) {
       viewBox="0,0,256,256"
       width="40px"
       height="40px"
-      style={{fill: 'gray', hover: {fill: 'black'}}}
+      fill= "gray"
       {...props}
     >
       <path
