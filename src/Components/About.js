@@ -7,7 +7,7 @@ function About() {
   return (
     <Container id="about">
       <Body>
-        <Heading className="">
+        <Heading className="float-left">
           <h2 className="font-semibold">Google Developer Student Clubs</h2>
           <h2 className="font-semibold">ABES Engineering College</h2>
         </Heading>
@@ -40,8 +40,8 @@ function About() {
           </ul>
         </p>
         <ButtonTab className="mt-4">
-          <Button className="hover:bg-green-600">
-            <a href="https://gdsc.community.dev/abes-engineering-college-ghaziabad/">
+          <Button className="hover:bg-green-600 bg-blue-600 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200">
+            <a href="https://gdsc.community.dev/abes-engineering-college-ghaziabad/" className="text-lg">
               Join us
             </a>
           </Button>
@@ -137,7 +137,7 @@ const Button = styled.button`
   padding: 10px;
   border-radius: 5px;
   font-weight: 800;
-  background-color: blue;
+
   cursor: pointer;
   border: 0px;
   a {

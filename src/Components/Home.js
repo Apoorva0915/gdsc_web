@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import About from './About';
 import Technology from './Technology';
 import Projects from './Projects';
+import { DotLottiePlayer } from '@dotlottie/react-player';
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
         <Container id='home'>
             <HomeLeft>
                 <img src='/Images/Google-DSC-Lockup-LeftAligned-Chapter.269ee91a8ab3da257401.png' alt='404! Element Not found.'/>
+                {/* <DotLottiePlayer src="https://lottie.host/9f064e2b-b5c7-4307-8110-7394b5f4765e/6nU4WWc86h.lottie" background="transparent" speed="2" style={{width: '300px', height: '300px'}} direction="1" mode="normal" autoplay loop="false" renderer='svg'></DotLottiePlayer> */}
                 <h3 className='font-bold text-xl '>Welcome to Google DSC at ABES Engineering College, Ghaziabad</h3>
                 <h3 className='font-semibold text-xl'>Happy Developing!</h3>
             </HomeLeft>

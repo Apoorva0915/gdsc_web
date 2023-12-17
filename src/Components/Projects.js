@@ -7,9 +7,9 @@ const Projects = () => {
         <Container className='mt-24'>
             
         <div class="projecthome" id="PROJECT"><h1 class="project-head" className='text-4xl font-bold'>PROJECTS</h1>
-        <p className='text-gray-700 font-medium tracking-tight text-lg'>Building real time solutions to tackle real world problems. Our projects speak themselves of the calibre we hold.</p>
+        <p className='text-gray-700 font-medium  text-lg'>Building real time solutions to tackle real world problems. Our projects speak themselves of the calibre we hold.</p>
         <a href="https://github.com/Developer-Students-Club-ABESEC" target="_blank" rel="noreferrer">
-            <button class="project-button text-lg font-bold tracking-wide">View Projects</button>
+            <button class="project-button text-lg font-bold tracking-wide bg-blue-600 hover:bg-red-600 transition ease-in-out delay-100 hover:scale-105 duration-200 hover:-translate-y-1">View Projects</button>
         </a></div>
         </Container>
     </div>
@@ -60,17 +60,10 @@ const Container=styled.div`
     line-height: 25px;
     text-decoration: none;
     text-align: center;
-    background-image: initial;
-    background-color: rgb(3, 114, 189);
+
     color: rgb(232, 230, 227);
 }
 
-button{
-    background-color: rgb(20, 97, 220) !important;
-}
-button:hover{
-    background-color: #DB4437!important;
-}
 a{
     text-decoration: none;
 }

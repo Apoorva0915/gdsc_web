@@ -15,13 +15,13 @@ function Footer() {
             </FooterImg>
             <QuickLinks >
                 <h2 className='text-base font-bold'>Quick Links:</h2>
-                <ul className='list-disc'>
-                    <li><a href="https://gdsc.community.dev/chapters/">Chapters</a></li>
-                    <li><a href="https://gdsc.community.dev/events/#/list">Upcoming events</a></li>
-                    <li><a href="https://developers.google.com/community/gdsc">More About DSC</a></li>
-                    <li><a href="https://gdsc.community.dev/participation-terms/">Participation Terms</a></li>
-                    <li><a href="https://policies.google.com/privacy">Privacy</a></li>
-                    <li><a href="https://policies.google.com/terms">Terms</a></li>
+                <ul className='list-disc '>
+                    <li><a href="https://gdsc.community.dev/chapters/" className='transition-all duration-200'>Chapters</a></li>
+                    <li><a href="https://gdsc.community.dev/events/#/list" className='transition-all duration-200'>Upcoming events</a></li>
+                    <li><a href="https://developers.google.com/community/gdsc" className='transition-all duration-200'>More About DSC</a></li>
+                    <li><a href="https://gdsc.community.dev/participation-terms/" className='transition-all duration-200'>Participation Terms</a></li>
+                    <li><a href="https://policies.google.com/privacy" className='transition-all duration-200'>Privacy</a></li>
+                    <li><a href="https://policies.google.com/terms" className='transition-all duration-200'>Terms</a></li>
                 </ul>
             </QuickLinks>
             <Social>
